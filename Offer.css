@@ -1,0 +1,41 @@
+.offer-section {
+    background: rgba(238, 235, 235, 0.7); /* Light semi-transparent background */
+    color: black;
+    text-align: left;
+    height: 300px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align text to the left */
+    justify-content: center;
+    padding: 0px 50px; /* Add padding for better spacing */
+  }
+  
+  .offer-section p {
+    color: #e600ad;
+    font-size: 11px; /* Increased for better visibility */
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between p and span */
+  }
+  
+  .offer-section span {
+    font-size: 30px;
+  }
+  
+  .offer-content {
+    display: flex;
+    align-items: center; /* Keep text and image aligned */
+    gap: 15px; /* Space between text and image */
+  }
+  
+  
+  .offer-text {
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevent text from breaking into a new line */
+  }
+  
+  .offer-image {
+    width: 30%; /* Adjust image size */
+    height: auto;
+  }
+  
